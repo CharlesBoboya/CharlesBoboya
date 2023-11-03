@@ -545,7 +545,7 @@
 						<div class="overlay"></div>
 						<div class="text text-center p-4">
 							<h3><a href="https://harmonygrovekakuma.netlify.app">HarmonyGrove</a></h3>
-							<span>Web Development/span>
+							<span>Web Development</span>
 						</div>
 					</div>
 				</div>
@@ -760,26 +760,26 @@
 
 			<div class="row block-9">
 				<div class="col-md-8">
-					<form action="POST" class="bg-light p-4 p-md-5 contact-form">
+					<form action="process_form.php" class="bg-light p-4 p-md-5 contact-form">
 						<div class="row">
 							<div class="col-md-6">
 								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Your Name" required>
+									<input type="text" class="form-control" placeholder="Your Name" required oninvalid="this.setCustomValidity('Please Enter Your Name')" oninput="this.setCustomValidity('')">
 								</div>
 							</div>
 							<div class="col-md-6">
 								<div class="form-group">
-									<input type="email" class="form-control" placeholder="Your Email" required>
+									<input type="email" class="form-control" placeholder="Your Email" required oninvalid="this.setCustomValidity('Please enter a valid email')" oninput="this.setCustomValidity('')">
 								</div>
 							</div>
 							<div class="col-md-12">
 								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Subject (Optional)" required>
+									<input type="text" class="form-control" placeholder="Subject (Optional)">
 								</div>
 							</div>
 							<div class="col-md-12">
 								<div class="form-group">
-									<textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message" required></textarea>
+									<textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message" required oninvalid="this.setCustomValidity('Please Enter Your Message')" oninput="this.setCustomValidity('')" required></textarea>
 								</div>
 							</div>
 							<div class="col-md-12">

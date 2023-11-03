@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST["name"];
     $email = $_POST["email"];
@@ -15,4 +15,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     header("Location: index.html");
     exit;
 }
-?>
+?> -->
